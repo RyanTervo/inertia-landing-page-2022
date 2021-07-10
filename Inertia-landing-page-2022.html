@@ -10,21 +10,25 @@
     /* start of internal CSS */  
 
         body {
-            background-color: lightcyan;
+            background-color: gold;
             text-align: center;
-        }
+            max-width: fit-content;
+            background-image: linear-gradient(to top, rgba(228, 208, 10, 0), rgb(88, 88, 66));
+       
         h1 {
-            color: white;
+            
         }
+
         h2 {
             color: red;
         }
+
         li {
             color: black;
-            text-decoration: blueviolet;
             text-decoration-style: solid;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-weight: 900;
+            font-size: 25px;
+            list-style-position: inside;  /* makes the bullet points connect inside next to words */
         }
         
     </style>
@@ -33,11 +37,11 @@
 <body>
     <!-- Start of the HTML -->
 
-    <header><h1>SIGN UP WITH ONLY A $49 / DOWN DEPOSIT PER PERSON</h1></header>
+    <h1>SIGN UP WITH ONLY A $49 / DOWN DEPOSIT PER PERSON</h1>
 
     
-        <h2>WHY SOUTH PADRE FOR SPRING BREAK</h2>
-
+        <h2><b>WHY SOUTH PADRE FOR SPRING BREAK</b></h2>
+        
         <ul>
             <li>lowest cost spring break - ANYWHERE!</li>
             <li>Daily Spring Break Beach Stage Mar 4-Mar 25</li>
@@ -73,5 +77,5 @@
 
 <!-- iframe youtube video at the bottom from inertia website.  Video is from 2019 so I need to update.  -->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/16kzMq4mDrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe max-width="95%" max-height="315" src="https://www.youtube.com/embed/16kzMq4mDrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </html>
